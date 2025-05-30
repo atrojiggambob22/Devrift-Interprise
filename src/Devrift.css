@@ -1,0 +1,390 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    /* background-color: black; */
+    /* color: black; */
+    /* z-index: 0; */
+
+}
+
+.header{
+   
+    /* top: 40px; */
+    position: relative;
+    left:-3px;
+    /* margin: 1px; */
+     background: rgb(0, 0, 0) !important; 
+    border-bottom-left-radius:140px;
+     border-bottom-right-radius: 140px;
+}
+.hheadspfonavs{
+  position: fixed;
+  top: -20px;
+  width: 100%;  
+  z-index: 1000;
+}
+.minnavss{
+    transition: .6s ease-in-out;
+}
+.minnavss h3:hover{
+
+  transition: .6s ease-in-out;
+    color: rgb(0, 0, 0) !important;
+}
+.minnavss:hover{
+    cursor:pointer;
+    background-color: rgb(40, 182, 4);
+    border-radius: 50px;
+    padding:8px;
+}
+nav h3{
+     color: rgb(255, 255, 255) !important;
+     padding: 0 7px;
+}
+nav{
+    
+    text-wrap: nowrap;
+     backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   opacity: 30;
+    border-radius: 50px;
+ background: radial-gradient(green, black);
+    padding: 15px;
+    width: 30%;  
+    position: relative;
+    left:32%;
+    margin:30px;
+   display: flex;
+   gap: 20px;
+}
+
+.HeadofEmpoer{
+    
+   padding-bottom: 100px;
+}
+
+.Empowerthem{
+    position: relative;
+    top:90px;
+    margin-bottom: 400px;
+    align-items: center;
+    text-align: center;
+   
+}
+.Empowerthem h1{
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+    margin-bottom: 90px;
+}
+.Empoersub1{
+    margin: 80px;
+   /* text-wrap: nowrp; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20%;
+}
+.doenburn{
+
+    position: relative;
+    top:90px;
+}
+.Empoersub1 button{
+    padding: 15px;
+    border-radius: 25px;
+    background: none;
+    border:2px solid white;
+    color: white !important;
+    margin: 10px;
+    transition: .2s ease-in-out;
+}
+.Empoersub1 button:hover{
+    border: 2px solid rgb(10, 75, 25);
+    color: black;
+    background: green;
+    
+}
+.icon{
+    color: gold !important;
+    padding:5px;
+}
+.Liners{
+    color: white;
+    background:linear-gradient( black, green);
+  /* box-shadow: 0 2px 9px  rgb(0, 0, 0) inset; */
+    border:1px solid rgba(0, 0, 0, 0.407);
+    padding: 40px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    align-items: center;
+    margin: 80px;
+}
+.Liners h3{
+    font-size: 40px;
+     font-weight: 900;
+     /* color: rebec; */
+}
+.Liners p{
+    font-size:20px;
+    font-weight:200;
+}
+.IDeas img{
+    margin: 20px;
+    width: 40%;
+    border-radius: 40px;
+}
+/* i was testing a design but t didnt come out well */
+/* .bobblemaster{
+   
+   position: relative;
+   top:350px;
+    display: flex;
+    justify-content: space-between;
+    
+} */
+/* .bobbles{
+     background-color: red;
+     border-radius: 50%;
+    padding: 100px;
+    width: 10%;
+} */
+.IDeas{
+    /* background-color: black; */
+  display: flex;
+  margin:220px 30px;
+ position: relative;
+ left: 30px;
+   
+   /* justify-content: space-between; */
+}
+
+.IdeasmINin{
+    display: flex;
+    justify-content: space-between;
+    text-wrap: nowrap;
+}
+.iininfinpingdom img{
+    width: 90%;
+}
+.secondgrades img{
+    width:90%;
+        height: 80vh !important;
+}
+.IdeasmINin h3{
+    font-size: 50px;
+}
+
+/* Sevices Section  */
+.Services{
+    margin: 40px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Services h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.Services p{
+    width: 60%;
+}
+.bentServ{
+    border-radius: 10px 30px 10px 30px;
+    padding: 0 30px;
+}
+/* it's not compusary to use flex for everyting */
+.minsib1serv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     border: 2px solid black;
+     width:50%;
+    margin: 20px 0;
+     text-wrap: nowrap;
+      padding: 20px;
+        border-radius:20px; 
+    /* display: flex;
+    gap: 40px;
+    margin: 50px  0; 
+    /* text-align: center;
+    align-items: center; */
+    /* justify-content: space-around; */
+}
+.minsib1serv1{
+    background-color: rgb(13, 97, 23);
+    color: white;
+    transition: .4s ease-in-out;
+}
+.minsib1serv1:hover{
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border:0.4px  solid black;
+    color: black;
+    background-color: white;
+    /* padding: 30px; */
+
+}
+.minsib1serv2{
+     transition: .4s ease-in-out;
+}
+.minsib1serv2:hover{
+     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+   background-color: rgb(13, 97, 23);
+    color: white;
+}
+
+/* this is the styling for the arrows */
+.arricon{
+   /* width: 90px;  */
+     position: relative;
+    left: 90px !important;
+}
+
+.boxipfinon{
+    border: 1px black solid;
+    width: 40%;
+    padding:30px;
+    border-radius: 50px  10px 50px 10px;
+}
+.insidesbox{
+    transition: .7s ease-in-out;
+}
+.insidesbox:hover{
+    background-color: black;
+    color: white;
+     border-radius: 10px 50px 10px 50px;
+    padding: 30px;
+}
+.boxipfion22{
+    background-color: black;
+    color: white;
+    
+}
+.insidesbox2{
+    transition: .7s ease-in-out !important;
+}
+.insidesbox2:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px 50px 10px 50px;
+     padding: 30px;
+}
+.thyinovactions{
+    display: flex;
+    justify-content: space-around;
+}
+.thyinovactions h2{
+    font-size: 40px;
+}
+.firstminfooteddr{
+  
+    position: relative;
+    left: 80px;
+    margin: 190px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.firstminfooteddr p{
+    width: 50%;
+}
+.firstminfooteddr img{
+    width: 40%;
+    position: relative;
+    left: 120px;
+}
+.minformsnsnfooter{
+    border: 2px solid rgb(28, 55, 6);
+    width: 70%;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 40px 20px;
+    transition: .5s ease-in-out;
+}
+.minformsnsnfooter:hover{
+      box-shadow: 0 4px 15px black;
+       border-radius: 10px 40px 10px 40px;
+}
+.minformsnsnfooter input{
+    height: 30px;
+    width: 70%;
+    padding:4px;
+    /* margin: 10px; */
+    border-radius: 15px;
+    transition: .4s ease-in-out;
+    border: none;
+    /* border:0.1px solid black; */
+}
+.minformsnsnfooter button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: .4s ease-in-out;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    left:50px;
+}
+.minformsnsnfooter button:hover{
+    border-radius: 10px 40px 10px 40px;
+}
+
+.ThemFoots2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 120px 0;
+    position: relative;
+    left: 50px;
+    gap: 150px;
+    
+}
+.ThemFoots2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.ThemFoots2 p{
+    text-align: left !important;
+    align-items: start !important;
+}
+.minipics{
+    position: relative;
+    left: -30px;
+    
+}
+.minipics2{
+    /* margin: 10px 100px; */
+    position: relative;
+    left:-50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    
+}
+.minipics2 img{
+
+   width:100% !important;
+    margin:5px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    /* box-shadow:rgba(0, 0, 0, 0.516) 0px 10px 35px 1px; */
+  
+}
+
+.main-figimgs p{
+    position: relative;
+    top:10px;
+}
+.main-figimgs{
+    position: relative;
+    top:-20px;
+}
+.Fimages img{
+    width:30px;
+    position: relative;
+    /* top:10px; */
+    /* left:90px; */
+    margin: 4px;
+
+}
