@@ -35,3 +35,91 @@
     position: relative;
     top: 10px;
 }
+@media (min-width:200px) and (max-width:800px){
+  .sec4{
+    /* overflow-y: hidden !important; */
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    left:-110px;
+     margin: 0;
+     text-wrap: nowrap;
+   
+}  
+.sec4-sub2{
+  padding: 40px 30px;
+    width: 50%;
+}
+
+.sec4-sub1-ch2{
+    overflow: hidden !important;
+}
+.sec4-sub1-ch3{
+    overflow-y:hidden;
+}
+.sec4-sub1-ch4{
+    overflow-y:hidden;
+}
+.sec4-sub1-ch5{
+    overflow-y:hidden;
+}
+.sec4-sub1-ch6{
+    overflow-y:hidden;
+}
+.sec4-sub1-ch2 img{
+    position: relative;
+    top:-30px;
+    left:-50px;
+    overflow-y: hidden;
+   
+}
+.sec4-sub1-ch2 h3{
+    padding-right: 20px;
+}
+.sec4-sub1-ch2-211{
+    
+    
+    overflow-y:hidden !important;
+  
+    position: relative;
+    left: -30px; 
+    
+}
+/* .sec4-sub1-ch2-211 h6{
+    position: relative;
+    top: 25px;
+} */
+.sec4-sub1-img2 img{
+    width:150px;
+    position: relative;
+    /* top:40px; */
+    left:-1px;
+    overflow: hidden;
+
+}
+.sec4-sub1-imgi img{
+    height: 100px;
+    
+}
+.sec4-sub1-img2 img{
+    height: 100px;
+    overflow: hidden;
+}
+.sec4-sub1-img3 img{
+    height: 100px;
+}
+.sec4-sub1-img4 img{
+    height: 100px;
+}
+.sec4-sub1-img5 img{
+    height: 100px;
+}
+.sec4-sub1-img6 img{
+    height: 100px;
+}
+.sec4-sub1-icon{
+    position: relative;
+    top:10px;
+    
+}
+
+}

@@ -4,21 +4,14 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    /* background-color: black; */
-    /* color: black; */
-    /* z-index: 0; */
-
 }
 
 .header{
-   
-    /* top: 40px; */
     position: relative;
     left:-3px;
-    /* margin: 1px; */
-     background: rgb(0, 0, 0) !important; 
+    background: rgb(0, 0, 0) !important; 
     border-bottom-left-radius:140px;
-     border-bottom-right-radius: 140px;
+    border-bottom-right-radius: 140px;
 }
 .hheadspfonavs{
   position: fixed;
@@ -31,7 +24,7 @@
 }
 .minnavss h3:hover{
 
-  transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
     color: rgb(0, 0, 0) !important;
 }
 .minnavss:hover{
@@ -47,22 +40,21 @@ nav h3{
 nav{
     
     text-wrap: nowrap;
-     backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-   opacity: 30;
+    opacity: 30;
     border-radius: 50px;
- background: radial-gradient(green, black);
+    background: radial-gradient(green, black);
     padding: 15px;
     width: 30%;  
     position: relative;
     left:32%;
     margin:30px;
-   display: flex;
-   gap: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 .HeadofEmpoer{
-    
    padding-bottom: 100px;
 }
 
@@ -82,7 +74,6 @@ nav{
 }
 .Empoersub1{
     margin: 80px;
-   /* text-wrap: nowrp; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20%;
@@ -114,7 +105,6 @@ nav{
 .Liners{
     color: white;
     background:linear-gradient( black, green);
-  /* box-shadow: 0 2px 9px  rgb(0, 0, 0) inset; */
     border:1px solid rgba(0, 0, 0, 0.407);
     padding: 40px;
     border-radius: 30px;
@@ -126,8 +116,7 @@ nav{
 }
 .Liners h3{
     font-size: 40px;
-     font-weight: 900;
-     /* color: rebec; */
+    font-weight: 900;
 }
 .Liners p{
     font-size:20px;
@@ -154,13 +143,10 @@ nav{
     width: 10%;
 } */
 .IDeas{
-    /* background-color: black; */
-  display: flex;
-  margin:220px 30px;
+display: flex;
+margin:220px 30px;
  position: relative;
  left: 30px;
-   
-   /* justify-content: space-between; */
 }
 
 .IdeasmINin{
@@ -173,7 +159,7 @@ nav{
 }
 .secondgrades img{
     width:90%;
-        height: 80vh !important;
+    height: 80vh !important;
 }
 .IdeasmINin h3{
     font-size: 50px;
@@ -238,8 +224,7 @@ nav{
 
 /* this is the styling for the arrows */
 .arricon{
-   /* width: 90px;  */
-     position: relative;
+    position: relative;
     left: 90px !important;
 }
 
@@ -351,6 +336,8 @@ nav{
 .minipics{
     position: relative;
     left: -30px;
+    width: 300%;
+    /* margin: 30px 100px; */
     
 }
 .minipics2{
@@ -363,8 +350,9 @@ nav{
     
 }
 .minipics2 img{
-
-   width:100% !important;
+position: relative;
+left: 80px;
+   width:30% !important;
     margin:5px;
     margin-bottom: 0px;
     border-radius: 10px;
@@ -387,4 +375,185 @@ nav{
     /* left:90px; */
     margin: 4px;
 
+}
+@media (min-width:200px) and (max-width:800px){
+   
+    nav{
+        width: 80%;
+        left: -5px;
+        font-size: 10px;
+    }
+    .HeadofEmpoer{
+        padding: 0;
+    }
+    .Empoersub1 p{
+        width: 80%;
+    }
+    .minEmpero234r34{
+        height: 90%;
+        margin-top: 120px;
+        left: 10px;
+        position: relative;
+        top: -120px;
+    }
+    .SecondPhae{
+        position: relative;
+        top:-80px;
+        height: 100px;
+        overflow: hidden;
+    }
+    .Empoersub1{
+        /* height: 100vh; */
+        position: relative;
+        top:-140px;
+        width: 100%;
+        margin:20px;
+        /* grid-template-columns: repeat(1,1fr); */
+       display: flex !important;
+       flex-direction:  column;
+    }
+
+    .Liners{
+        padding:40px 20px;
+         text-wrap: nowrap;
+         width: 80%;
+        position: relative;
+        /* margin: 0 60px; */
+         left:-60px;
+    }
+    .Liners h3{
+    font-size:20px;
+    text-wrap: nowrap;
+     /* font-weight: 900; */
+     /* color: rebec; */
+}
+.Liners p{
+    font-size:7px;
+    width: 100px;
+    position: relative;
+    left:-30px;
+    /* margin: 0 30px; */
+    /* font-weight:200; */
+}
+.PLusicons{
+    font-size: 10px !important;
+}
+.CheifLiners{
+    position: relative;
+    /* left:20px; */
+    margin:0 10px ;
+}
+.IDeas{
+   display: none;
+     position: relative;
+    left: -20px;
+}
+.Services{
+    flex-direction:column;
+    position: relative;
+    left:-150px;
+    width: 150%;
+}
+
+.thembeforebox{
+    
+    height: 100vh !important;
+    flex-direction: column !important;
+}
+.Beforebocss{
+    position: relative;
+    top:80px;
+}
+
+.thyinovactions h2{
+    font-size: 20px;
+}
+.UNderthheinvac{
+    display: none !important;
+    text-wrap: nowrap;
+    gap:10px;
+    
+}
+
+.UNderthheinvac h3{
+    font-size:20px !important;
+}
+.thembeforebox img{
+
+    border-radius: 10px;
+    height: 90% !important;
+}
+.babaServe{
+    /* margin:0 40px;
+    position: relative;
+    left:-40px; */
+}
+
+.boxipfinon{
+
+    margin: 50px;
+    position: relative;
+    top: -30px;
+    left: -40px;
+}
+.FatherMinseneln{
+    width: 130% !important;
+}
+.firstminfooteddr{
+    width: 100%;
+    /* margin:  120px; */
+    flex-direction: column;
+    position: relative;
+    left:-40px;
+}
+.firstminfooteddr img{
+    display: none;
+}
+.firstminfooteddr h3{
+    width:100% !important;
+    margin: 10px 130px;
+    position: relative;
+    left:-130px;
+    /* text-wrap: nowrap; */
+    /* width: 1200px !important; */
+}
+.firstminfooteddr p{
+    width: 90%;
+    font-size: 20px !important;
+    
+}
+.minformsnsnfooter{
+    display: flex;
+}
+.minformsnsnfooter button{
+    position: relative;
+    left:-1px;
+}
+.ThemFoots2{
+    grid-template-columns: repeat(1,1fr) !important;
+    position: relative;
+    top:-120px !important;
+}
+.unederthemiun h3{
+    font-size:40px;
+
+}
+.main-figimgs p{
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    left:-20px;
+}
+.Discop{
+    font-size: 25px;
+   
+}
+.Discop p{
+ margin-bottom: 10px;
+ font-weight: 600;
+}
+.minipics h3{
+    position: relative;
+    left: 40px;
+}
 }

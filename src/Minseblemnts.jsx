@@ -45,10 +45,10 @@ const  Minseblemnts=()=>{
                         <div className='sec4-sub1-ch2'>
                             <h3> <span style={{backgroundColor:'white', borderRadius:'3px'}}>Pay Per Click</span>  <span style={{backgroundColor:'white', borderRadius:'3px'}}> <br /> advertising</span></h3>
                             <div className='sec4-sub1-icon'>
-                             <div>
+                             <div  className="firsttimewrr1">
                              <img src="../public/Images/arrow-1.png" alt="" />
                              </div>
-                            <div>
+                            <div className="sec4-sub1-ch2-211">
                                 <h6 style={{color:'black'}}>Learn More</h6>
                              </div>
                         </div>

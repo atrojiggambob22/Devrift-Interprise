@@ -31,11 +31,15 @@ const Devrift =() =>{
 // }
 
     return(
+        <>
        <div >
-        <ScrollIndicator />
+        
          {/* <motion.div id="scroll-indicator" style="scrollIndicator" /> */}
              <MainRift/>
        </div>
+             <ScrollIndicator />
+        
+        </>
 
       
     )
@@ -82,14 +86,14 @@ const MainRift =()=>{
                     <h1 style={{color:"white"}}>Empowering Brands <br />  Through Creative Solutions</h1>
                     </div>
                 <div className="Empoersub1">
-                    <div>
+                    <div className="minEmpero234r34">
                         <p style={{color:"white"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolore iusto veritatis cupiditate ad praesentium, nisi a corrupti ipsum asperiores necessitatibus mollitia aut, saepe nobis iure nihil. Labore, debitis voluptatem!</p>
 
                         <div >
                             <button>Learn More</button></div>
                     </div>
 
-                    <div>
+                    <div className="SecondPhae">
                         <div><img src="" alt="" /></div>
                         <div className="doenburn">
                             <button>Get Started</button>
@@ -119,20 +123,20 @@ const MainRift =()=>{
 
              <div className="Liners">
                 
-                        <div>
-                            <h3>2000 <FontAwesomeIcon icon={faAdd} style={{color:'green', fontSize:'30px'}} /> </h3>
+                        <div className="CheifLiners">
+                            <h3>2000 <FontAwesomeIcon icon={faAdd} style={{color:'green', fontSize:'30px'}}  className="PLusicons" /> </h3>
                             <p>Category</p>
                         </div>
-                        <div>
-                            <h3>10<FontAwesomeIcon icon={faAdd} style={{color:'green',fontSize:'30px'}}/> </h3>
+                        <div className="CheifLiners">
+                            <h3>10<FontAwesomeIcon icon={faAdd} style={{color:'green',fontSize:'30px'}} className="PLusicons"/> </h3>
                             <p> Years Experience</p>
                         </div>
-                        <div>
-                            <h3>890  <FontAwesomeIcon icon={faAdd} style={{color:'green',fontSize:'30px'}}/> </h3>
+                        <div className="CheifLiners">
+                            <h3>890  <FontAwesomeIcon icon={faAdd} style={{color:'green',fontSize:'30px'}} className="PLusicons"/> </h3>
                             <p>Hours of Design</p>
                         </div>
-                        <div>
-                            <h3>150M <FontAwesomeIcon icon={faAdd} style={{color:'green',fontSize:'30px'}}/></h3>
+                        <div className="CheifLiners">
+                            <h3>150M <FontAwesomeIcon icon={faAdd} style={{color:'green',fontSize:'30px'}} className="PLusicons" /></h3>
                             <p>Tracked Revenue</p>
                         </div>
                     </div>
@@ -140,41 +144,26 @@ const MainRift =()=>{
 
            <div className="FirtBody">
 
-                    {/* i was testing a dessing but it didnt come out well */}
-                        {/* <div className="bobblemaster">
-                            <div className="bobbles"></div>
-                            <div className="bobbles"></div>
-                            <div className="bobbles"></div>
-                            <div className="bobbles"></div>
-                            <div className="bobbles"></div>
-                            <div className="bobbles"></div>
-                        </div> */}
-
                     <div className="IDeas">
                         <FadeInSection delay={0.6}>
 
-                                <div className="IdeasmINin">
+                            <div className="IdeasmINin">
                             <div>
                                 <h3>Turning Ideas into <br />Masterpeices</h3>
                                 <div className="iininfinpingdom">
                                     <img src={House} alt=""  /></div>
                             </div>
 
-                            <div
-                            >
+                            <div>
                                 <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, <br />animi aliquam? Asperiores, fugiat placeat vitae, velit libero et <br />provident nam quisquam repellat atque sint explicabo <br />consequuntur neque ab officia aut?</p>
                                 
-                                <div className="secondgrades" ><img src={House} alt="" /></div></div>
-
+                                <div className="secondgrades" ><img src={House} alt="" /></div>
                                 
+                            </div>
+
                         </div>
                         </FadeInSection>
-                        
-                        <div>
-                            
-                             
-                        </div>
                     </div>
 
                     <div className="Services" style={{overflow:"hidden"}}>
@@ -237,8 +226,8 @@ const MainRift =()=>{
                         </FadeInSection>
                         
 
-                        <div style={{display:"flex",gap:"1px",justifyContent:'space-around',position:"relative", left:'120px',overflow:"hidden", top:"40px"}}>
-                            <div style={{marginRight:"20px"}}>
+                        <div style={{display:"flex",gap:"1px",justifyContent:'space-around',position:"relative", left:'120px',overflow:"hidden", top:"40px"}} className="thembeforebox">
+                            <div className="Beforebocss" style={{marginRight:"20px"}}>
                                 <img src={House} alt=""  style={{width:"300px",height:"80%", borderRadius:"30px", position:"relative", left:'-50px', margin:" 0 80px"}}/>
                             </div>
 
@@ -307,9 +296,9 @@ const MainRift =()=>{
                     </div>
 
                     <div style={{margin:"50px"}}>
-                        <div style={{display:'flex',justifyContent:"space-between"}}>
+                        <div style={{display:'flex',justifyContent:"space-between"}} className="UNderthheinvac" >
                                     <div>
-                            <h3 style={{fontSize:"40px"}}>Meet <span className="bentServ" style={{backgroundColor:'darkgreen', color:'white'}}>Members</span> </h3>
+                            <h3 style={{fontSize:"40px"}} className="babaServe">Meet <span className="bentServ" style={{backgroundColor:'darkgreen', color:'white'}}>Members</span> </h3>
                         </div>
                         <div>
                            <div>
@@ -321,11 +310,12 @@ const MainRift =()=>{
                         
                       
                     </div>
-                    <div style={{overflow:'hidden'}}>
+                    <div style={{overflow:'hidden'}} className="FatherMinseneln">
                              <Minseblemnts style={{overflow:'hidden'}}/>
                         </div>
                 <footer>
                     <div className="firstminfooteddr">
+
                     <div>
                          <FadeInSection delay={0.4}>
 
