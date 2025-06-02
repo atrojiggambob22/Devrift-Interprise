@@ -397,7 +397,7 @@ left: 80px;
         top: -120px;
     }
     .SecondPhae{
-        overflow:hidden !important ;
+        overflow:hidden ;
         position: relative;
         top:-80px;
         height: 100px;
@@ -484,15 +484,7 @@ left: 80px;
     border-radius: 10px;
     height: 90% !important;
 }
-.boxipfion22{
-    position: relative;
-    top:-40px !important;
-}
-.babaServe{
-    /* margin:0 40px;
-    position: relative;
-    left:-40px; */
-}
+
 
 .boxipfinon{
 
