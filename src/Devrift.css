@@ -248,6 +248,9 @@ margin:220px 30px;
     color: white;
     
 }
+.sec4-sub1-icon h6{
+    display: none !important;
+}
 .insidesbox2{
     transition: .7s ease-in-out !important;
 }
