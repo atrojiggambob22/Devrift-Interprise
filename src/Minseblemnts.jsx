@@ -42,9 +42,9 @@ const  Minseblemnts=()=>{
                          <FadeInSection delay={0.6}>
 
                         <div className='sec4-sub2'>
-                        <div className='sec4-sub1-ch2'>
-                            <h3> <span style={{backgroundColor:'white', borderRadius:'3px'}}>Pay Per Click</span>  <span style={{backgroundColor:'white', borderRadius:'3px'}}> <br /> advertising</span></h3>
-                            <div className='sec4-sub1-icon'>
+                        <div className='sec4-sub1-ch2' style={{overflow:"hidden"}}>
+                            <h3 style={{overflow:"hidden"}}> <span style={{backgroundColor:'white', borderRadius:'3px'}}>Pay Per Click</span>  <span style={{backgroundColor:'white', borderRadius:'3px'}}> <br /> advertising</span></h3>
+                            <div className='sec4-sub1-icon' style={{position:"relative", top:"30px"}}>
                              <div  className="firsttimewrr1">
                              <img src="../public/Images/arrow-1.png" alt="" />
                              </div>

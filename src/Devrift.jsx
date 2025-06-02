@@ -170,7 +170,7 @@ const MainRift =()=>{
                         <FadeInSection delay={0.2}>
 
                             <div style={{position:'relative', left:'120px'}}>
-                            <div style={{marginBottom:"20px"}}>
+                            <div style={{marginBottom:"20px", overflow:"hidden"}}>
                                 <h3 >Our <span  className="bentServ" style={{backgroundColor:'darkgreen', color:'white'}}> Services</span></h3>
                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sed autem perspiciatis fuga dignissimos facere!</p>
                             </div>
@@ -234,10 +234,10 @@ const MainRift =()=>{
                             <div style={{position:"relative", left:'20px', top:"50px"}}>
                                 
                                 <div style={{marginBottom:'50px'}} className="boxipfinon">
-                                    <div className="insidesbox">
+                                    <div className="insidesbox" style={{overflow:"hidden"}}> 
                                                 <FadeInSection delay={0.7}>
-                                                     <div>
-                                                    <p style={{width:'80%'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, consequuntur!</p>
+                                                     <div style={{overflow:"hidden"}}>
+                                                    <p style={{width:'80%',overflow:"hidden"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, consequuntur!</p>
                                             </div>
 
                                             <div>
@@ -316,10 +316,10 @@ const MainRift =()=>{
                 <footer>
                     <div className="firstminfooteddr">
 
-                    <div>
+                    <div style={{overflow:"hidden"}}>
                          <FadeInSection delay={0.4}>
 
-                        <div>
+                        <div style={{overflow:"hidden"}}>
                             <h3 style={{marginBottom:'30px',fontSize:'50px'}}>Get In Touch Today</h3>
                             <p style={{marginBottom:'30px',fontSize:'20px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad et pariatur sequi numquam quia eum placeat sint beatae repellat?</p>
                         </div>
