@@ -553,4 +553,9 @@ left: 80px;
     position: relative;
     left: 40px;
 }
+
+
+.sec4-sub1-icon h6{
+    display: none !important;
+}
 }
