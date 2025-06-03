@@ -557,12 +557,26 @@ left: 80px;
  margin-bottom: 10px;
  font-weight: 600;
 }
-.minipics{
-    position: relative;
-    top: 80px;
-    left:-60px !important;
-    margin: 190px 30px;
+.minipics2{
+    gap: 0;
+    grid-template-columns: repeat(1,1fr);
+    /* width: 100%; */
+    /* margin: 0 30px; */
 }
+.minipics2 img{
+    position: relative;
+    /* left0px; */
+    margin: 10px 0;
+    gap: 0;
+    width:20% !important;
+}
+.minipics{
+    /* position: relative;
+    top: 80px;
+    left:-60px !important; */
+    margin: 10px 0px;
+}
+
 .minipics h3{
     position: relative;
     left: 40px;
