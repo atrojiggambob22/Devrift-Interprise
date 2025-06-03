@@ -43,7 +43,7 @@ const  Minseblemnts=()=>{
 
                         <div className='sec4-sub2'>
                         <div className='sec4-sub1-ch2' style={{overflow:"hidden"}}>
-                            <h3 style={{overflow:"hidden"}}> <span style={{backgroundColor:'white', borderRadius:'3px'}}>Pay Per Click</span>  <span style={{backgroundColor:'white', borderRadius:'3px'}}> <br /> advertising</span></h3>
+                            <h3 style={{overflow:"hidden",}}> <span style={{backgroundColor:'rgb(174, 248, 128)', borderRadius:'3px'}}>Pay Per Click</span>  <span style={{backgroundColor:'rgb(174, 248, 128)', borderRadius:'3px'}}> <br /> advertising</span></h3>
                             <div className='sec4-sub1-icon' style={{position:"relative", top:"30px"}}>
                              <div  className="firsttimewrr1">
                              <img src="../public/Images/arrow-1.png" alt="" />
@@ -64,7 +64,7 @@ const  Minseblemnts=()=>{
 
                         <div className='sec4-sub2'>
                         <div className='sec4-sub1-ch3'>
-                            <h3> <span style={{backgroundColor:'white', borderRadius:'3px'}} > Social Media</span>  <span style={{backgroundColor:'white', borderRadius:'3px'}}> <br />Marketing</span></h3>
+                            <h3> <span style={{backgroundColor:'rgb(174, 248, 128)', borderRadius:'3px'}} > Social Media</span>  <span style={{backgroundColor:'rgb(174, 248, 128)', borderRadius:'3px'}}> <br />Marketing</span></h3>
                             <div className='sec4-sub1-icon'>
                              <div>
                                  <img src="../public/Images/arrow-2.png" alt="" />
@@ -106,7 +106,7 @@ const  Minseblemnts=()=>{
 
                         <div className='sec4-sub2'>
                         <div className='sec4-sub1-ch5'>
-                            <h3> <span style={{backgroundColor:'white', borderRadius:'3px'}}>Content</span><br /><span style={{backgroundColor:'white', borderRadius:'3px'}}>Creation</span> </h3>
+                            <h3> <span style={{backgroundColor:'rgb(174, 248, 128)', borderRadius:'3px'}}>Content</span><br /><span style={{backgroundColor:'rgb(174, 248, 128)', borderRadius:'3px'}}>Creation</span> </h3>
                             <div className='sec4-sub1-icon'>
                              <div>
                                 <img src="../public/Images/arrow-1.png" alt="" />

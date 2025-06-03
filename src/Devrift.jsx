@@ -336,7 +336,7 @@ const MainRift =()=>{
                     </div>
                      <FadeInSection delay={0.6}>
                          <div>
-                        <img src={House} alt="" />
+                        <img src={House} alt="" style={{borderRadius:"20px"}} />
                     </div>
                      </FadeInSection>
                    
@@ -380,7 +380,7 @@ const MainRift =()=>{
                                <img src={House} alt="" />
                         </div>
                       </div>
-                      <div></div>
+                      
                      
                       
               </div>

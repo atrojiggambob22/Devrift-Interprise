@@ -271,7 +271,7 @@ margin:220px 30px;
   
     position: relative;
     left: 80px;
-    margin: 190px 60px;
+    margin: 90px 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -500,6 +500,7 @@ left: 80px;
     width: 130% !important;
 }
 .firstminfooteddr{
+    margin: 140px 50px;
     width: 100%;
     /* margin:  120px; */
     flex-direction: column;
@@ -534,6 +535,10 @@ left: 80px;
     position: relative;
     top:-120px !important;
 }
+.unederthemiun{
+    position: relative;
+    top:80px;
+}
 .unederthemiun h3{
     font-size:40px;
 
@@ -551,6 +556,12 @@ left: 80px;
 .Discop p{
  margin-bottom: 10px;
  font-weight: 600;
+}
+.minipics{
+    position: relative;
+    top: 80px;
+    left:-60px !important;
+    margin: 190px 30px;
 }
 .minipics h3{
     position: relative;
